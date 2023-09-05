@@ -4,9 +4,9 @@ class Pajaro {
     }
 }
 
-class Pinguino extends Pajaro {
-    volar() {
-        throw new Error('Los pinguinos no pueden volar');
+class Pinguino {
+    nadar() {
+        console.log('Los pinguinos nadan');
     }
 }
 /////////
